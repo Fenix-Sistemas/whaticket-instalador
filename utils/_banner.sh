@@ -10,7 +10,7 @@
 #   WHITE
 #   CYAN_LIGHT
 #   RED
-#   GREEN
+#   CYAN_LIGHT
 #   YELLOW
 # Arguments:
 #   None
@@ -21,14 +21,14 @@ print_banner() {
 
   printf "\n\n"
 
-  printf "${GREEN}";
+  printf "${CYAN_LIGHT}";
   printf "                                                     ▄▄█▀▀▀▀▀▀▀█▄▄  \n";
-  printf "                                                   ${GREEN}▄█▀${NC}   ${WHITE}▄▄${NC}      ${GREEN}▀█▄\n";
-  printf "                                                   ${GREEN}█${NC}    ${WHITE}███${NC}         ${GREEN}█\n";
-  printf "                                                   ${GREEN}█${NC}    ${WHITE}██▄         ${GREEN}█${NC}\n";
-  printf "                                                   ${GREEN}█${NC}     ${WHITE}▀██▄${NC} ${WHITE}██${NC}    ${GREEN}█\n";
-  printf "                                                   ${GREEN}█${NC}       ${WHITE}▀███▀${NC}    ${GREEN}█\n";
-  printf "                                                   ${GREEN}▀█▄           ▄█▀\n";
+  printf "                                                   ${CYAN_LIGHT}▄█▀${NC}   ${WHITE}▄▄${NC}      ${CYAN_LIGHT}▀█▄\n";
+  printf "                                                   ${CYAN_LIGHT}█${NC}    ${WHITE}███${NC}         ${CYAN_LIGHT}█\n";
+  printf "                                                   ${CYAN_LIGHT}█${NC}    ${WHITE}██▄         ${CYAN_LIGHT}█${NC}\n";
+  printf "                                                   ${CYAN_LIGHT}█${NC}     ${WHITE}▀██▄${NC} ${WHITE}██${NC}    ${CYAN_LIGHT}█\n";
+  printf "                                                   ${CYAN_LIGHT}█${NC}       ${WHITE}▀███▀${NC}    ${CYAN_LIGHT}█\n";
+  printf "                                                   ${CYAN_LIGHT}▀█▄           ▄█▀\n";
   printf "                                                    ▄█    ▄▄▄▄█▀▀  \n";
   printf "                                                    █  ▄█▀        \n";
   printf "                                                    ▀▀▀▀          \n";
@@ -36,7 +36,7 @@ print_banner() {
 
   printf "\n"
 
-printf "${GREEN}";  
+printf "${CYAN_LIGHT}";  
 printf "██████╗░██╗░░░░░░██╗░░░░░░░██╗\n";
 printf "██╔══██╗██║░░░░░░██║░░██╗░░██║\n";
 printf "██████╔╝██║░░░░░░╚██╗████╗██╔╝\n";
